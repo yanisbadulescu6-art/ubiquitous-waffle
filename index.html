@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GTA V PS4 Menu — UI Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+  <header>
+    <div>
+      <div class="eyebrow">LOS SANTOS • PERSONAL UI PROJECT</div>
+      <h1>GTA V <span>MOD MENU</span></h1>
+      <p class="sub">PS4-style controller interface · Offline UI simulation</p>
+    </div>
+    <div class="status"><i></i> UI READY</div>
+  </header>
+
+  <main>
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar">CJ</div>
+        <div><b>PLAYER MENU</b><small>Controller profile</small></div>
+      </div>
+      <nav id="nav" aria-label="Menu categories"></nav>
+      <div class="controller">
+        <b>CONTROLS</b>
+        <p><kbd>↑</kbd> <kbd>↓</kbd> Navigate</p>
+        <p><kbd>←</kbd> <kbd>→</kbd> Change value</p>
+        <p><kbd>□</kbd> / <kbd>Enter</kbd> Select</p>
+        <p><kbd>○</kbd> / <kbd>Esc</kbd> Back</p>
+        <small id="padStatus">Controller: checking…</small>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div class="content-head">
+        <div><small id="crumb">MAIN MENU</small><h2 id="sectionTitle">Dashboard</h2></div>
+        <span class="pill">SIMULATOR</span>
+      </div>
+      <div id="panel"></div>
+      <div class="footer"><span id="message">Ready. Select a category.</span><span>BUILD 1.0.0</span></div>
+    </section>
+  </main>
+  <footer class="disclaimer">
+    Standalone interface demo only. It does not connect to, modify, inject into, or change GTA V / GTA Online.
+    Money, vehicle, teleport and player options are visual simulations.
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
